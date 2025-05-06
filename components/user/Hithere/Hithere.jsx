@@ -32,10 +32,10 @@ export default function Hithere() {
       </div>
 
       <div className="flex gap-4 lg:gap-5">
-        <i class="fa-brands fa-twitter bg-blue-500 p-[7px] rounded-full lg:p-[10px]"></i>
-        <i class="fa-brands fa-linkedin  bg-blue-500 p-[7px] rounded-full lg:p-[10px]"></i>
-        <i class="fa-brands fa-facebook  bg-blue-500 p-[7px] rounded-full lg:p-[10px]"></i>
-        <i class="fa-brands fa-youtube  bg-blue-500 p-[7px] rounded-full lg:p-[10px]"></i>
+        <i class="fa-brands fa-twitter bg-blue-500 p-[7px] rounded-full lg:p-[10px] cursor-pointer"></i>
+        <i class="fa-brands fa-linkedin  bg-blue-500 p-[7px] rounded-full lg:p-[10px] cursor-pointer"></i>
+        <i class="fa-brands fa-facebook  bg-blue-500 p-[7px] rounded-full lg:p-[10px] cursor-pointer"></i>
+        <i class="fa-brands fa-youtube  bg-blue-500 p-[7px] rounded-full lg:p-[10px] cursor-pointer"></i>
       </div>
     </main>
   );

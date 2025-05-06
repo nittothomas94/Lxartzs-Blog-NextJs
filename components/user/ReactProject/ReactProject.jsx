@@ -2,7 +2,7 @@ export default function ReactProject() {
   return (
     <div className="w-full flex flex-col items-center gap-5 lg:items-start md:px-10 lg:px-14 lg:py-12">
       {/* project 1 */}
-      <div className="w-full min-h-30  rounded-[5px] flex flex-col gap-3 items-center lg:flex-row md:gap-5 bg-[#1E293B66] py-4">
+      <div className="w-full min-h-30  rounded-[5px] flex flex-col gap-3 items-center lg:flex-row md:gap-5 bg-[#1E293B66] py-4 hover:shadow-md cursor-pointer">
         <img
           src="/images/user/bulb.png"
           alt="bulb project1"
@@ -11,7 +11,7 @@ export default function ReactProject() {
         <div className="w-full flex flex-col items-center justify-center  lg:items-start lg:pl-4 gap-2">
           <div className="flex gap-2 items-center">
             <h2 className="md:text-[22px]">Project 1</h2>
-            <button className="px-1 lg:py-2 text-[12px] bg-green-800 text-green-400 rounded-[12px]">
+            <button className="px-1 lg:py-2 text-[12px] bg-green-800 text-green-400 rounded-[12px] cursor-pointer hover:scale-105">
               Web Design
             </button>
           </div>
@@ -37,7 +37,7 @@ export default function ReactProject() {
         <div className="w-full flex flex-col items-center justify-center  lg:items-start lg:pl-4 gap-2">
           <div className="flex gap-2 items-center">
             <h2 className="md:text-[22px]">Project 2</h2>
-            <button className="px-1 lg:py-2 text-[12px] bg-red-800 text-red-400 rounded-[12px]">
+            <button className="px-1 lg:py-2 text-[12px] bg-red-800 text-red-400 rounded-[12px] cursor-pointer hover:scale-105">
               Next.js
             </button>
           </div>
@@ -63,7 +63,7 @@ export default function ReactProject() {
         <div className="w-full flex flex-col items-center justify-center  lg:items-start lg:pl-4 gap-2">
           <div className="flex gap-2 items-center">
             <h2 className="md:text-[22px]">Project 3</h2>
-            <button className="px-1 lg:py-2 text-[12px] bg-violet-800 text-violet-400 rounded-[12px]">
+            <button className="px-1 lg:py-2 text-[12px] bg-violet-800 text-violet-400 rounded-[12px] cursor-pointer hover:scale-105">
               Web Design
             </button>
           </div>
